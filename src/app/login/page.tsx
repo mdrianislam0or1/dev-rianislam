@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
 
-import Navbar from "@/components/Shared/Navbar";
+import Navbar from "@/components/Shared/navbar";
 import { userLogin } from "@/services/actions/userLogin";
 import { storeUserInfo } from "@/services/auth.service";
 import Link from "next/link";

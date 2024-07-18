@@ -1,6 +1,5 @@
 "use client";
 
-import Navbar from "@/components/Shared/Navbar";
 import { register } from "@/services/actions/register";
 import { userLogin } from "@/services/actions/userLogin";
 import { storeUserInfo } from "@/services/auth.service";
@@ -96,7 +95,7 @@ const RegisterPage: React.FC = () => {
 
   return (
     <>
-      <Navbar />
+
       <div className="min-h-screen my-2 flex items-center justify-center">
         <div className="bg-white p-8 rounded shadow-md w-full max-w-md">
           <h2 className="text-2xl font-bold text-center mb-8">Registration</h2>

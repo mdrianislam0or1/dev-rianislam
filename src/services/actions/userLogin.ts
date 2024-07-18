@@ -7,7 +7,7 @@ interface LoginForm {
 
 export const userLogin = async (data: LoginForm) => {
   const response = await fetch(
-    `https://parcel-and-prose.vercel.app/api/login`,
+    `http://localhost:3000/api/login`,
     {
       method: "POST",
       headers: {

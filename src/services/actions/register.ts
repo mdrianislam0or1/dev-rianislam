@@ -11,7 +11,7 @@ export const register = async (formData: RegisterForm) => {
     img: formData.img,
   };
 
-  const res = await fetch(`https://parcel-and-prose.vercel.app/api/register`, {
+  const res = await fetch(`http://localhost:3000/api/register`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

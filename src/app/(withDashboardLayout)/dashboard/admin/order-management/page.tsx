@@ -35,7 +35,7 @@ export default function OrderManagement() {
     const fetchOrders = async () => {
       try {
         const response = await fetch(
-          "https://parcel-and-prose.vercel.app/api/orders"
+          "http://localhost:3000/api/orders"
         );
         if (!response.ok) {
           throw new Error("Failed to fetch orders");
@@ -55,7 +55,7 @@ export default function OrderManagement() {
   const handleStatusToggle = async (orderId: string) => {
     try {
       const response = await fetch(
-        `https://parcel-and-prose.vercel.app/api/orders/${orderId}`,
+        `http://localhost:3000/api/orders/${orderId}`,
         {
           method: "PUT",
           headers: {
@@ -81,7 +81,7 @@ export default function OrderManagement() {
   const handleDeleteOrder = async (orderId: string) => {
     try {
       const response = await fetch(
-        `https://parcel-and-prose.vercel.app/api/orders/${orderId}`,
+        `http://localhost:3000/api/orders/${orderId}`,
         {
           method: "DELETE",
         }

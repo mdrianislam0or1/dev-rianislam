@@ -1,6 +1,6 @@
 "use client";
 import { FormEvent, useState } from "react";
-import { useCreateAProductMutation } from "@/redux/api/productApi";
+// import { useCreateAProductMutation } from "@/redux/api/productApi";
 
 export default function CreateProduct() {
   const [formData, setFormData] = useState({
@@ -9,7 +9,7 @@ export default function CreateProduct() {
     price: "",
     imageUrl: "",
   });
-  const [createProduct, { isLoading }] = useCreateAProductMutation();
+  // const [createProduct, { isLoading }] = useCreateAProductMutation();
 
   const handleChange = (
     e: React.ChangeEvent<
@@ -22,19 +22,20 @@ export default function CreateProduct() {
     });
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    try {
-      await createProduct(formData).unwrap();
-    } catch (error) {
-      console.error("Error creating product:", error);
-    }
-  };
+  // const handleSubmit = async (e: React.FormEvent) => {
+  //   e.preventDefault();
+  //   try {
+  //     await createProduct(formData).unwrap();
+  //   } catch (error) {
+  //     console.error("Error creating product:", error);
+  //   }
+  // };
 
   return (
     <div className="container mx-auto py-8">
       <h1 className="text-2xl font-bold mb-4">Create a Product</h1>
-      <form onSubmit={handleSubmit}>
+      {/* onSubmit={handleSubmit} */}
+      <form >
         <div className="mb-4">
           <label className="block text-sm font-semibold mb-1" htmlFor="name">
             Product Name
@@ -97,7 +98,7 @@ export default function CreateProduct() {
             required
           />
         </div>
-        <div className="flex justify-end">
+        {/* <div className="flex justify-end">
           <button
             type="submit"
             className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600"
@@ -105,7 +106,7 @@ export default function CreateProduct() {
           >
             {isLoading ? "Creating..." : "Create Product"}
           </button>
-        </div>
+        </div> */}
       </form>
     </div>
   );
