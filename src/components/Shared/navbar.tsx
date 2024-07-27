@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 export default function Navbar() {
     const links = [
         { url: "/", title: "Home" },
-        { url: "/portfolio", title: "Portfolio" },
+        { url: "/project", title: "Project" },
         { url: "/about", title: "About" },
         { url: "/contact", title: "Contact" },
     ];

@@ -14,9 +14,9 @@ export default function Admin() {
         </header>
 
         <div className="bg-white rounded-lg shadow-md p-8">
-          <p className="text-lg text-gray-700">
-            Welcome to the admin dashboard! Here you can manage products,
-            orders, customers, and more.
+          <p className="text-lg text-gray-7000">
+            Welcome to the admin dashboard! Here you can manage projects,
+            blogs, and more.
           </p>
         </div>
       </main>

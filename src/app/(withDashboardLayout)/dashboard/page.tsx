@@ -7,59 +7,56 @@ export default function DashboardHomePage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="bg-blue-100 p-4 rounded shadow">
             <h2 className="text-xl font-bold mb-2 text-blue-800">
-              Manage Products
+              Manage Projects
             </h2>
             <p className="text-blue-700">
-              Easily add, edit, or delete products from your inventory. Keep
-              your product listings up-to-date and organized for your customers.
+              Easily add, edit, or delete projects from your inventory. Keep
+              your project listings up-to-date and organized for your customers.
             </p>
           </div>
           <div className="bg-green-100 p-4 rounded shadow">
             <h2 className="text-xl font-bold mb-2 text-green-800">
-              Process Orders
+              Manage Blogs
             </h2>
             <p className="text-green-700">
-              Efficiently manage and process customer orders. Track order
-              status, update shipping details, and ensure timely deliveries.
+              Easily add, edit, or delete blogs from your inventory. Keep
+              your blog listings up-to-date and organized for your customers.
             </p>
           </div>
           <div className="bg-yellow-100 p-4 rounded shadow">
             <h2 className="text-xl font-bold mb-2 text-yellow-800">
-              Customer Management
+              Manage Users
             </h2>
             <p className="text-yellow-700">
-              Keep track of your customer base and their preferences. Manage
-              customer accounts, handle inquiries, and provide personalized
-              support.
+              Easily add, edit, or delete users from your inventory. Keep
+              your user listings up-to-date and organized for your customers.
             </p>
           </div>
           <div className="bg-red-100 p-4 rounded shadow">
             <h2 className="text-xl font-bold mb-2 text-red-800">
-              Sales Analytics
+              Manage Orders
             </h2>
             <p className="text-red-700">
-              Gain insights into your sales performance and trends. Analyze
-              customer behavior, identify opportunities, and optimize your
-              marketing strategies.
+              Easily add, edit, or delete orders from your inventory. Keep
+              your order listings up-to-date and organized for your customers.
             </p>
           </div>
           <div className="bg-purple-100 p-4 rounded shadow">
             <h2 className="text-xl font-bold mb-2 text-purple-800">
-              Marketing Campaigns
+              Manage Categories
             </h2>
             <p className="text-purple-700">
-              Plan and execute targeted marketing campaigns. Create promotions,
-              discounts, and special offers to attract and retain customers.
+              Easily add, edit, or delete categories from your inventory. Keep
+              your category listings up-to-date and organized for your customers.
             </p>
           </div>
           <div className="bg-indigo-100 p-4 rounded shadow">
             <h2 className="text-xl font-bold mb-2 text-indigo-800">
-              Settings & Configuration
+              Manage Contacts
             </h2>
             <p className="text-indigo-700">
-              Customize your eCommerce platform to suit your business needs.
-              Configure payment gateways, shipping options, and website
-              settings.
+              Easily add, edit, or delete contacts from your inventory. Keep
+              your contact listings up-to-date and organized for your customers.
             </p>
           </div>
         </div>

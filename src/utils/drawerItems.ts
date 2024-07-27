@@ -11,12 +11,12 @@ export const drawerItems = (role: UserRole): DrawerItem[] => {
           path: `/${role}`,
         },
         {
-          title: "Order-Management",
-          path: `/${role}/order-management`,
+          title: "blog-Management",
+          path: `/${role}/blog-management`,
         },
         {
-          title: "Add-Product",
-          path: `/${role}/create-product`,
+          title: "Submit-Project",
+          path: `/${role}/create-project`,
         }
       );
       break;

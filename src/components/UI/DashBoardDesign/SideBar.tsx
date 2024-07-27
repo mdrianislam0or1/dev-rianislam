@@ -22,8 +22,8 @@ export default function SideBar() {
               className=" "
               height={64}
               width={64}
-              alt="Parcel-Ecom"
-              src="/img/Parcel-Ecom.png"
+              alt=""
+              src="/hero.png"
             />
           </Link>
         </h1>
