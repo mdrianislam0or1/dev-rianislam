@@ -1,5 +1,5 @@
 import { dbConnection } from "@/lib/dbConnection";
-import Order from "@/lib/models/orderModel";
+import Order from "@/lib/models/blogModel";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function DELETE(request: NextRequest) {

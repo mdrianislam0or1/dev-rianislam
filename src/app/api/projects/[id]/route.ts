@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { dbConnection } from "@/lib/dbConnection";
-import Product from "@/lib/models/productModel";
+import Product from "@/lib/models/projectModel";
 
 export async function GET(request: NextRequest) {
   await dbConnection();
