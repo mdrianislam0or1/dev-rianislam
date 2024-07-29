@@ -11,6 +11,12 @@ Welcome to my portfolio website! This is a full-stack web application built with
 - **Contact Page**: A form to get in touch with me, integrated with email service.
 - **Footer**: Links to my social media profiles and other important links.
 
+## Video Demo
+
+Watch a demo of the website:
+
+[![Watch the demo](https://img.youtube.com/vi/zmh6pUTupvE/maxresdefault.jpg)](https://youtu.be/zmh6pUTupvE)
+
 ## Technologies Used
 
 - **Frontend**: 
