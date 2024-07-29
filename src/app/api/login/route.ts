@@ -1,6 +1,5 @@
 import { dbConnection } from "@/lib/dbConnection";
 import User from "@/lib/models/userModel";
-import { comparePassword } from "@/utils/auth";
 import { NextRequest, NextResponse } from "next/server";
 import jwt from "jsonwebtoken";
 
@@ -22,7 +21,7 @@ export async function POST(request: NextRequest) {
 
     console.log("User found:", user);
 
-    const isMatch = await comparePassword(password, user.password);
+    const isMatch = await user.comparePassword(password);
     console.log("Password match result:", isMatch);
 
     if (!isMatch) {

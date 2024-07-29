@@ -27,6 +27,31 @@ const projectApi = baseApi.injectEndpoints({
       }),
       invalidatesTags: [tagTypes.project],
     }),
+
+    getAllBlog: build.query({
+      query: () => ({
+        url: "/blogs",
+        method: "GET",
+      }),
+      providesTags: [tagTypes.blog],
+    }),
+
+    getSingleBlogById: build.query({
+      query: (id) => ({
+        url: `/blogs/${id}`,
+        method: "GET",
+      }),
+      providesTags: [tagTypes.blog],
+    }),
+
+    createABlog: build.mutation({
+      query: (data) => ({
+        url: "/blogs",
+        method: "POST",
+        data,
+      }),
+      invalidatesTags: [tagTypes.blog],
+    }),
   }),
 });
 
@@ -34,4 +59,8 @@ export const {
   useGetAllProjectQuery,
   useGetSingleProjectByIdQuery,
   useCreateAProjectMutation,
+  // blog
+  useCreateABlogMutation,
+  useGetAllBlogQuery,
+  useGetSingleBlogByIdQuery
 } = projectApi;

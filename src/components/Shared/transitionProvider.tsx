@@ -12,8 +12,6 @@ const TransitionProvider = ({ children }: { children: React.ReactNode }) => {
       {/* w-screen h-screen  bg-gradient-to-r from-rose-200 to-yellow-200 */}
       <div key={pathName} className="
       
-    bg-indigo-950
-      
       ">
         <motion.div
           className="h-screen w-screen fixed bg-blackFaded rounded-b-[100px] z-40"

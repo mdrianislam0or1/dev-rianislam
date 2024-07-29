@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Full-Stack Next.js Portfolio Website
 
-## Getting Started
+Welcome to my portfolio website! This is a full-stack web application built with Next.js, showcasing my skills, projects, and experiences.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Home Page**: Introduction and overview of the website.
+- **About Page**: Information about me, my skills, and experiences.
+- **Portfolio Page**: A showcase of my projects with descriptions and links.
+- **Blog Page**: A section for blog posts.
+- **Contact Page**: A form to get in touch with me, integrated with email service.
+- **Footer**: Links to my social media profiles and other important links.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Frontend**: 
+  - Next.js
+  - React
+  - TypeScript
+  - Tailwind CSS
+  - Framer Motion
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Backend**:
+  - Node.js
+  - Express (optional, depending on your setup)
+  - EmailJS for contact form integration
 
-## Learn More
+- **Database**: 
+  - MongoDB (if applicable)
+  - PostgreSQL (if applicable)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Hosting**:
+  - Vercel
+  - Netlify (for static parts, if applicable)
