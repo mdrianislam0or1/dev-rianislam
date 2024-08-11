@@ -8,7 +8,7 @@ Welcome to my portfolio website! This is a full-stack web application built with
 - **About Page**: Information about me, my skills, and experiences.
 - **Portfolio Page**: A showcase of my projects with descriptions and links.
 - **Blog Page**: A section for blog posts.
-- **Contact Page**: A form to get in touch with me, integrated with email service.
+- **Contact Page**: A form to get in touch with me, integrated with email service more.
 - **Footer**: Links to my social media profiles and other important links.
 
 ## Video Demo
